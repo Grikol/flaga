@@ -1,20 +1,11 @@
 # Flaga
 
+#### 1. Start.
 
-#### 1. Login do serwera.
+Aby zacżąć włącz terminal (lub powershell) i połącz się ze swoim serwerem.
 
-```
-ssh nazwa_uzytkownika@adres_ip
-```
-
-
-PS: W trakcie instalacji gdy proces się zatrzymuje z zapytaniem "Do you want to continue? [Y/n]" na końcu, napisz "Y" aby przejść dalej.
-
-
-### Uprawnienia root dla AWS Ubuntu 18/20 (Nie trzeba tego kroku robić dla VPS z Home i większość innych):
+### Dodatkowy krok dla AWS Ubuntu 18/20 (Nie trzeba tego kroku robić dla VPS z Home i większość innych):
 Ustawiamy uprawnienia root ("administratora").
-
-
 ```
 sudo passwd # <----- To dla AWS tylkooo!
 ```
@@ -22,12 +13,8 @@ Podaj hasło i zapisz. Wpisz jeszcze poniższe i podaj hasło.
 ```
 su -  # <----- Też tylko dla AWS!! xD
 ```
+I jesteś na serwerze jako root. 
 
-Jesteś na serwerze jako root. 
-
-PS: w terminalu używaj skrótów:
--> ctrl+shift+c <--- kopiuj w terminalu
--> ctrl+shift+v <--- wklej w terminalu
 
 #### 2. Uaktualniamy paczki (packages).
 
@@ -35,6 +22,8 @@ PS: w terminalu używaj skrótów:
 apt update
 apt upgrade
 ```
+
+W trakcie instalacji gdy proces się zatrzymuje z zapytaniem "Do you want to continue? [Y/n]" na końcu, napisz "Y" aby przejść dalej.
 
 #### 3. Git.
 
