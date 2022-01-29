@@ -4,7 +4,7 @@
 
 Aby zacżąć włącz terminal (lub powershell) i połącz się ze swoim serwerem.
 
-### Dodatkowy krok dla AWS Ubuntu 18/20 (Nie trzeba tego kroku robić dla VPS z Home i większość innych):
+#### Dodatkowy krok tylko dla AWS Ubuntu 18/20 (Nie trzeba tego kroku robić dla VPS z Home i większość innych):
 Ustawiamy uprawnienia root ("administratora").
 ```
 sudo passwd # <----- To dla AWS tylkooo!
